@@ -1,0 +1,57 @@
+healthcare_app/
+│
+├── data/
+│   ├── raw/                
+│   ├── processed/          
+│
+├── models/
+│   ├── symptom_checker/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── model/
+│   │   │   ├── model.bin
+│   │   │   ├── config.json
+│   │   └── README.md
+│   │
+│   ├── summarizer/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── model/
+│   │   │   ├── model.bin
+│   │   │   ├── config.json
+│   │   └── README.md
+│   │
+│   ├── scheduler/
+│   │   ├── algorithm.py
+│   │   ├── database.py
+│   │   ├── evaluate.py
+│   │   └── README.md
+│   │
+│   ├── classifier/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── model/
+│   │   │   ├── model.bin
+│   │   │   ├── config.json
+│   │   └── README.md
+│   │
+│   ├── voice_command/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── model/
+│   │   │   ├── model.bin
+│   │   │   ├── config.json
+│   │   └── README.md
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── symptom_checker.py
+│   ├── summarizer.py
+│   ├── scheduler.py
+│   ├── classifier.py
+│   ├── voice_command.py
+│   ├── app.py              
+│
+├── requirements.txt        
+├── README.md               
+└── config.py               

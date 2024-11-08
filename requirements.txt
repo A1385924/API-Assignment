@@ -1,0 +1,7 @@
+transformers
+torch
+openai
+flask
+pandas
+scikit-learn
+speechrecognition
